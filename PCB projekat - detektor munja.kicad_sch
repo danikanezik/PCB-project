@@ -1,0 +1,193 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "778052b8-7730-485a-bb51-970a958c2948")
+	(paper "A4")
+	(title_block
+		(title "PCB PROJEKAT")
+		(date "2026-06-28")
+		(comment 4 "Danica Nesic Mihajlo Petkovic")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e7d6ff-7543-46ec-846b-e732ac152633")
+	)
+	(sheet
+		(at 88.9 26.67)
+		(size 36.83 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3ad5b105-e3e5-4170-a160-29dce5fec481")
+		(property "Sheetname" "PSU"
+			(at 88.9 25.3234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "napajanje.kicad_sch"
+			(at 88.9 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB projekat - detektor munja"
+				(path "/778052b8-7730-485a-bb51-970a958c2948"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 60.96)
+		(size 34.29 85.09)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "565ad178-2fe5-432a-922c-0385555ac025")
+		(property "Sheetname" "MCU"
+			(at 154.94 59.6134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mikrokontroler.kicad_sch"
+			(at 154.94 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Pulses" input
+			(at 154.94 92.71 180)
+			(uuid "c38f7d09-17fa-4435-8c34-9b717c2ce4ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB projekat - detektor munja"
+				(path "/778052b8-7730-485a-bb51-970a958c2948"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 60.96)
+		(size 36.83 85.09)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8306f230-5566-4c03-92c1-3ad7608d1d73")
+		(property "Sheetname" "DETECTOR"
+			(at 88.9 59.6134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "detektor.kicad_sch"
+			(at 88.9 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Pulses" output
+			(at 125.73 92.71 0)
+			(uuid "71cbc002-1750-43a8-b370-92c55495689b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB projekat - detektor munja"
+				(path "/778052b8-7730-485a-bb51-970a958c2948"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
