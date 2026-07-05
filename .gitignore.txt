@@ -1,4 +1,3 @@
 fp-info-cache
 fp-lib-table
 .history
-PCB projekat - detektor munja-backups
